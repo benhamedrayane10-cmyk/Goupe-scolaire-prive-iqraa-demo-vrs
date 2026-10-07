@@ -1,0 +1,8 @@
+{
+  "name": "Groupe Scolaire Privé IQRAA",
+  "description": "Site officiel du Groupe Scolaire Privé IQRAA à Belgaïd, Bir El Djir, Oran. Excellence éducative de la maternelle au Lycée.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

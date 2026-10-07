@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradients matching official school identity -->
+    <linearGradient id="iqraaBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A3EE" />
+      <stop offset="100%" stop-color="#0084CC" />
+    </linearGradient>
+    <linearGradient id="iqraaOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+    <linearGradient id="iqraaRedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left: Book Pages & Graphic Flourish -->
+  <!-- Upper Golden/Orange Book Page Arch -->
+  <path d="M 88 85 Q 155 95 190 145 Q 165 240 222 335 C 180 300 135 250 108 200 Z" fill="url(#iqraaOrangeGrad)" />
+  
+  <!-- Red Book Spine Left Vertical Blocks -->
+  <path d="M 24 138 L 45 138 L 45 290 L 88 290 L 88 310 L 24 310 Z" fill="url(#iqraaRedGrad)" />
+  <path d="M 57 106 L 78 106 L 78 260 L 105 260 L 105 280 L 57 280 Z" fill="url(#iqraaRedGrad)" />
+
+  <!-- Lower Sweeping Book Rays (Red & Orange) -->
+  <path d="M 105 240 Q 145 260 215 325 Q 170 310 105 262 Z" fill="url(#iqraaRedGrad)" />
+  <path d="M 105 272 Q 150 288 218 338 Q 170 326 105 292 Z" fill="url(#iqraaRedGrad)" />
+  <path d="M 24 320 Q 90 315 192 338 Q 110 338 24 340 Z" fill="url(#iqraaOrangeGrad)" />
+
+  <!-- Center: Joyful Student Figure with Graduation Cap in Bright Cyan/Sky Blue -->
+  <!-- Mortarboard Graduation Cap -->
+  <g transform="translate(188, 102)">
+    <!-- Diamond Mortarboard top -->
+    <polygon points="62,0 124,18 62,38 0,18" fill="#0084CC" />
+    <polygon points="62,4 116,18 62,34 8,18" fill="#00A3EE" />
+    <!-- Skullcap underneath -->
+    <path d="M 36 28 Q 62 45 88 28 L 88 38 Q 62 55 36 38 Z" fill="#0077B6" />
+    <!-- Tassel hanging left -->
+    <path d="M 62 18 C 30 25 24 45 20 74" fill="none" stroke="#0077B6" stroke-width="4" stroke-linecap="round" />
+    <circle cx="20" cy="74" r="4.5" fill="#0077B6" />
+  </g>
+
+  <!-- Head of Student -->
+  <circle cx="260" cy="155" r="39" fill="url(#iqraaBlueGrad)" />
+
+  <!-- Dynamic Flying V-Body with Arms Raised in Triumph -->
+  <path d="M 105 145 C 170 210 220 255 256 335 C 290 250 340 180 430 75 C 385 145 320 255 280 338 L 245 338 C 215 265 170 195 105 145 Z" fill="url(#iqraaBlueGrad)" />
+
+  <!-- Arabic Calligraphy: إقرأ (Iqraa) in Solid Bold Black -->
+  <!-- Left Alif with Hamza (أ) -->
+  <g fill="#0F172A">
+    <!-- Hamza above left Alif -->
+    <path d="M 83 200 C 95 190 108 200 102 212 C 96 220 84 218 84 218 L 112 225 L 83 226 Z" />
+    <!-- Vertical Alif -->
+    <path d="M 86 240 Q 94 300 98 370 L 86 370 Q 84 300 86 240 Z" />
+  </g>
+
+  <!-- Main Calligraphic Wordmark إقرأ -->
+  <g fill="#0F172A">
+    <!-- Two Dots above Qaf -->
+    <polygon points="305,225 325,232 318,252 298,245" />
+    <polygon points="338,235 358,242 351,262 331,255" />
+
+    <!-- Qaf Head & Sweep -->
+    <path d="M 335 270 C 375 250 392 285 385 315 C 375 350 325 365 245 365 C 190 365 165 310 190 290 C 205 278 245 320 300 338 C 340 338 355 315 345 295 C 338 280 320 280 305 288 Z" />
+
+    <!-- Ra (ر) swooping down to underline -->
+    <path d="M 190 290 C 160 305 150 355 125 385 C 95 415 160 415 210 375 C 235 355 215 330 190 290 Z" />
+
+    <!-- Right Alif -->
+    <path d="M 400 228 Q 425 295 425 368 L 413 368 Q 410 305 388 255 Z" />
+
+    <!-- Hamza below/right -->
+    <path d="M 400 375 C 418 368 428 382 420 395 C 410 405 398 400 398 400 L 428 410 L 400 412 Z" />
+  </g>
+
+  <!-- Latin Text: IQRAA in Bold Clean Geometric Sans -->
+  <text x="280" y="408" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#0F172A" letter-spacing="4" text-anchor="middle">
+    IQRAA
+  </text>
+</svg>
